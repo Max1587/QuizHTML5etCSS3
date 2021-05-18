@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*
+{
+    font-family: 'open_sansregular', "Comic Sans MS", Arial, Georgia, Times, "Times New Roman", sans-serif;
+}
+body
+{
+    background-image: url('images/background.jpg');
+}
+.photo
+{
+    float: right;
+    border: black outset;
+    border-radius: 10px;
+}
+
+h1
+{
+    font-size: 1.8em;
+}
+h2
+{
+    text-align: center;
+    border: black solid;
+    box-shadow: 5px 5px 5px;
+}
+
+.experience
+{
+    color: red;
+}
+.competences
+{
+    color: rgb(56, 0, 187);
+}
+.marketing
+{
+    color: rgb(25, 0, 255);
+}
+.ventes
+{
+    color: rgb(0, 26, 255);
+}
+.management
+{
+    color: rgb(0, 89, 255);
+}
+.formation
+{
+    color: green;
+}
